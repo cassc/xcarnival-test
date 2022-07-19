@@ -14,7 +14,8 @@ module.exports = {
   networks: {
     hardhat: {
       forking: {
-        url: "https://mainnet.infura.io/v3/36fd3e30e77e47ba9034d2605a11ec8a",
+        // this is my API endpoint from infura, please replace with yours ;)
+        url: "https://mainnet.infura.io/v3/36fd3e30e77e47ba9034d2605a11ec8a", 
         blockNumber: 15028719,
       }
     }
