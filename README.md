@@ -1,13 +1,9 @@
-# Sample Hardhat Project
+# A Hardhat Project to reproduce the xcarinaval hack
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
+A demo reproducing the [xcarnival hack](https://xcarnival-lab.medium.com/xcarnival-has-got-1-467-eth-back-the-security-agencies-have-tentatively-determined-the-hackers-3ea05ad134ae) using hardhat fork.
 
-Try running some of the following tasks:
+To run the demo:
 
 ```shell
-npx hardhat help
-npx hardhat test
-GAS_REPORT=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.js
+npx hardhat run scripts/xcarnival-play.js
 ```
